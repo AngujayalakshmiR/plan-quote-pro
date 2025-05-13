@@ -1,0 +1,2 @@
+<p class="rate-value" th:text="${'Rs ' + #numbers.formatDecimal(rate.value, 1, 'INDIAN')}"></p>
+rateElement.textContent = 'Rs ' + rate.toLocaleString('en-IN'); 

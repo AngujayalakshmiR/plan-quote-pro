@@ -1,0 +1,9 @@
+ @echo off
+echo Starting Insurance Quote Calculator...
+echo.
+echo Step 1: Building the project...
+call mvn clean install
+echo.
+echo Step 2: Starting the application...
+call mvn spring-boot:run
+pause

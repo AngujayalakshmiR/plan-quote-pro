@@ -1,0 +1,4 @@
+com\insurance\model\InsuranceQuote.class
+com\insurance\QuoteCalculatorApplication.class
+com\insurance\repository\InsuranceQuoteRepository.class
+com\insurance\controller\InsuranceController.class
